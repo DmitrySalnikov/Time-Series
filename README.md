@@ -62,7 +62,6 @@ name | train | test | conf int
 --- | --- | --- | ---
 Best | - | 0.00226 | -
 Lin regr | 0.003 | 0.002 | 0.001
-Lin regr | 0.003 | 0.002 | 0.001
 Lin regr with intercept | 0.056 | 0.002 | 0.001
 Lasso | 0.003 | 0.002 | 0.001
 Lasso with intercept | 0.026 | 0.002 | 0.001
