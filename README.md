@@ -83,3 +83,70 @@ Lasso | 1.062 | 1.090 | 0.020
 Lasso with intercept | 1.083 | 1.149 | 0.049
 Tree | 1.171 | 1.291 | 0.064
 XGBoost | 1.099 | 1.181 | 0.023
+
+
+### Egor Orbidan
+
+#### Linear trend
+
+name | diff | intercept| train | test |
+Linear Regression | True | True | 1.137317e-28 | 6.000043e-28
+Linear Regression | True | False | 1.358522e-28 | 7.575085e-28
+Linear Regression | False | True | 8.188263e-28 | 3.295571e-27
+Linear Regression | False | False | 2.158090e-27 | 8.851460e-27
+Lasso | True | True | 1.133105e-28 | 6.015045e-28
+Lasso | True | False | 3.955797e-28 | 1.933942e-27
+Lasso | False | True | 3.723566e-28 | 1.256569e-27
+Lasso | False | False | 8.859158e-03 | 3.640814e-02
+Ridge | True | True | 1.134711e-28 | 5.992114e-28
+Ridge | True | False | 1.203431e-28 | 6.625225e-28
+Ridge | False | False | 9.683097e-28 | 4.830781e-27
+Ridge | False | False | 2.790511e-27 | 1.188342e-26
+
+##### Brownian motion
+
+name | diff | intercept| train | test |
+Linear Regression | True | True | 0.993243 | 1.017127
+Linear Regression | True | False | 0.991034 | 1.015029	
+Linear Regression | False | True | 0.973410 | 1.044813
+Linear Regression | False | False | 0.977444 | 1.031223
+Lasso | True | True | 0.983313 | 1.013945
+Lasso | True | False | 0.985822 | 1.011624
+Lasso | False | True | 0.975484	 | 1.049827
+Lasso | False | False | 1.016391 | 1.077941
+Ridge | True | True | 0.972734 | 1.015794
+Ridge | True | False | 0.970044 | 1.014919
+Ridge | False | False | 0.974569 | 1.044066
+Ridge | False | False | 0.978227 | 1.028636	
+
+##### Linear trend + Brownian motion
+
+name | diff | intercept| train | test |
+Linear Regression | True | True | 1.006181 | 1.015163
+Linear Regression | True | False | 1.017119 | 1.062211	
+Linear Regression | False | True | 0.991068 | 1.036579
+Linear Regression | False | False | 0.994755 | 1.065599
+Lasso | True | True | 0.995646 | 1.012500
+Lasso | True | False | 0.987633 | 1.048501
+Lasso | False | True | 2.163391	 | 2.431317
+Lasso | False | False | 2.059733 | 2.198690
+Ridge | True | True | 0.985847 | 1.014413
+Ridge | True | False | 0.970047 | 1.032641
+Ridge | False | False | 0.990298 | 1.037995	
+Ridge | False | False | 0.991251 | 1.066915	
+
+##### Difficult trend 
+
+name | diff | intercept| train | test |
+Linear Regression | True | True | 0.002604 | 0.100542	
+Linear Regression | True | False | 0.002716 | 0.003495	
+Linear Regression | False | True | 0.002622 | 0.339689
+Linear Regression | False | False | 0.002639 | 0.004418
+Lasso | True | True | 0.002894 | 0.012319
+Lasso | True | False | 0.003301 | 0.002703
+Lasso | False | True | 1.248994	 | 5.607846
+Lasso | False | False | 3.218304 | 23.458689
+Ridge | True | True | 0.002858 | 0.008180
+Ridge | True | False | 0.002798 | 0.002604
+Ridge | False | False | 0.003352 | 0.402696	
+Ridge | False | False | 0.002666 | 0.003385	
