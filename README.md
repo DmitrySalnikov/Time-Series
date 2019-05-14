@@ -89,7 +89,8 @@ XGBoost | 1.099 | 1.181 | 0.023
 
 #### Linear trend
 
-name | diff | intercept| train | test |
+name | diff | intercept| train | test 
+--- | --- | --- | --- | ---
 Linear Regression | True | True | 1.137317e-28 | 6.000043e-28
 Linear Regression | True | False | 1.358522e-28 | 7.575085e-28
 Linear Regression | False | True | 8.188263e-28 | 3.295571e-27
@@ -105,7 +106,8 @@ Ridge | False | False | 2.790511e-27 | 1.188342e-26
 
 ##### Brownian motion
 
-name | diff | intercept| train | test |
+name | diff | intercept| train | test 
+--- | --- | --- | --- | ---
 Linear Regression | True | True | 0.993243 | 1.017127
 Linear Regression | True | False | 0.991034 | 1.015029	
 Linear Regression | False | True | 0.973410 | 1.044813
@@ -121,7 +123,8 @@ Ridge | False | False | 0.978227 | 1.028636
 
 ##### Linear trend + Brownian motion
 
-name | diff | intercept| train | test |
+name | diff | intercept| train | test 
+--- | --- | --- | --- | ---
 Linear Regression | True | True | 1.006181 | 1.015163
 Linear Regression | True | False | 1.017119 | 1.062211	
 Linear Regression | False | True | 0.991068 | 1.036579
@@ -137,7 +140,8 @@ Ridge | False | False | 0.991251 | 1.066915
 
 ##### Difficult trend 
 
-name | diff | intercept| train | test |
+name | diff | intercept| train | test 
+--- | --- | --- | --- | ---
 Linear Regression | True | True | 0.002604 | 0.100542	
 Linear Regression | True | False | 0.002716 | 0.003495	
 Linear Regression | False | True | 0.002622 | 0.339689
