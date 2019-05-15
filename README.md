@@ -171,3 +171,7 @@ Ridge | True | True | 1.025914 | 1.151735
 Ridge | True | False | 1.006670 | 1.074331
 Ridge | False | False | 1.028872 | 1.268758	
 Ridge | False | False | 1.022361 | 1.152730
+DT | True | None | 1.147730 | 1.332669
+DT | False | None | 2.872477 | 12645.238931
+KNN | True | None | 1.145700 | 1.353376
+KNN | False | None | 2.211956 | 12562.409741
