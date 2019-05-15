@@ -1,0 +1,5 @@
++/- test	+/- train	mse_test	mse_train	Method	
+1.672553e-28	3.386371e-29	7.479611e-28	1.328080e-28	 LR no intercept	
+1.340491e-28	2.959547e-29	5.989137e-28	1.132848e-28	LR  intercept	
+1.586992e-08	1.586992e-08	6.045742e-08	6.045741e-08	LASSO without intercept	
+4.813443e-09	4.813442e-09	6.609869e-09	6.609869e-09	LASSO with intercept	

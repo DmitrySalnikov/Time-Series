@@ -1,0 +1,5 @@
++/- test	+/- train	mse test 	mse train 	Method	
+0.01912	0.010592	1.022579	0.97793	LR no intercept	
+0.01903	0.010473	1.024650	0.97652	LR intercept	
+0.018251	0.010337	1.013206	0.981953	 LASSO without intercept	
+0.018946	0.010463	1.020624	0.983879	 LASSO with intercept	
