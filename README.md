@@ -154,3 +154,20 @@ Ridge | True | True | 0.002858 | 0.008180
 Ridge | True | False | 0.002798 | 0.002604
 Ridge | False | False | 0.003352 | 0.402696	
 Ridge | False | False | 0.002666 | 0.003385	
+
+##### Difficult trend with Brownian motion
+
+name | diff | intercept| train | test 
+--- | --- | --- | --- | ---
+Linear Regression | True | True | 1.027051 | 1.144932	
+Linear Regression | True | False | 1.039117 | 1.089997	
+Linear Regression | False | True | 1.028862 | 1.262916
+Linear Regression | False | False | 1.021539 | 1.151785
+Lasso | True | True | 1.038217 | 1.169991
+Lasso | True | False | 1.031077 | 1.094633
+Lasso | False | True | 2.786531	 | 5.688668
+Lasso | False | False | 3.298420 | 6.176644	
+Ridge | True | True | 1.025914 | 1.151735
+Ridge | True | False | 1.006670 | 1.074331
+Ridge | False | False | 1.028872 | 1.268758	
+Ridge | False | False | 1.022361 | 1.152730
